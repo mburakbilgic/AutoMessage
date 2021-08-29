@@ -43,7 +43,7 @@ class AutoMessage:
             pyautogui.click(pyautogui.locateCenterOnScreen(open_wp_image_path, grayscale = False))
             time.sleep(15)
 
-            pyautogui.click(pyautogui.locateCenterOnScreen(click_sent_image_path, grayscale = False) %self.current_path)
+            pyautogui.click(pyautogui.locateCenterOnScreen(click_sent_image_path, grayscale = False))
             time.sleep(5)
     
     def run(self):
