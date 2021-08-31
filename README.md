@@ -17,8 +17,8 @@ The project is a coding #challenge, all requirements are defined by [@LuNiZz](ht
 
 Update the [phonebook.csv](https://github.com/mburakbilgic/AutoMessage/blob/master/phonebook.csv) with a real phone number, when you download this repo.
 
-After that opening the repo in your os and run your terminal. Under the repo path, call this command
+After that opening the repo in your os and run your terminal. Under the repo move to the ../wp_automsg path, call this command
 
-$python wpchallenge.py -c run
+$python wp_automsg_script.py -c run
 
 Note: If you using two or more monitor in your pc, please make sure your browser open in the same screen with your terminal.
