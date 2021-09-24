@@ -8,7 +8,8 @@ class DataResolver:
         self.arr_name = []
         self.arr_pnumber = []
 
-    def _data(self):   
+    def _data(self):
+        
         dataframe = pd.read_csv(self.data_path, sep=',',header=0)
 
         for idx in dataframe.index:
@@ -17,3 +18,5 @@ class DataResolver:
             
             self.arr_pnumber.append(str(pnumber))
             self.arr_name.append(name)
+        
+        return self.arr_pnumber, self.arr_name
